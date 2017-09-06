@@ -17,6 +17,10 @@ Heapster exports the following metrics to its backends.
 | filesystem/available | The number of available bytes remaining in a the filesystem |
 | filesystem/inodes | The number of available inodes in a the filesystem |
 | filesystem/inodes_free | The number of free inodes remaining in a the filesystem |
+| disk/io_read_bytes | Number of bytes read from a disk partition |
+| disk/io_write_bytes | Number of bytes written to a disk partition |
+| disk/io_read_bytes_rate | Number of bytes read from a disk partition per second |
+| disk/io_write_bytes_rate | Number of bytes written to a disk partition per second |
 | memory/limit | Memory hard limit in bytes. |
 | memory/major_page_faults | Number of major page faults. |
 | memory/major_page_faults_rate | Number of major page faults per second. |
